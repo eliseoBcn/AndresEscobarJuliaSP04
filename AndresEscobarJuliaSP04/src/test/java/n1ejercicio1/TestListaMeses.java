@@ -35,7 +35,9 @@ class TestListaMeses {
 		 assertEquals(12 , listameses.getTamaño() );
 		 
 		 assertEquals(false, listameses.getIsnulo() );
-		 
+	
+		 assertNotNull(listameses.listameses);
+	
 	}
 
 }
